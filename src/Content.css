@@ -1,0 +1,133 @@
+.div-of-main-1 {
+  margin-top: 5px;
+}
+.introduction-of-arthik {
+  border: 1px solid black;
+  background-color: #4096ff;
+}
+.introduction {
+  width: 97%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-of-introduction {
+  width: 97%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph-of-introduction {
+  padding: 20px;
+}
+.message {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+.image-of-figure {
+  padding: 5px;
+  width: 35vh;
+}
+.message-part {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: white;
+}
+.div-of-figure {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.name-of-the-oficer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.description-of-the-officer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 97%;
+}
+.paragraph-of-description {
+  padding: 20px;
+}
+.div-instruction {
+  width: 97%;
+}
+
+.heading-of-instruction-cycle {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-size: large;
+  font-weight: 100;
+  background-color: rgb(18, 171, 18);
+}
+.ic {
+  display: flex;
+  justify-content: center;
+  padding: 5pxs;
+  border: 1px solid grey;
+  padding: 5px;
+  text-transform: capitalize;
+}
+.ic:hover {
+  background-color: #feffe6;
+  box-shadow: 5px 5px 5px 5px #888888;
+  font-size: large;
+}
+
+.dic-ic {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  gap: 10px;
+}
+@media only screen and (min-width: 600px) {
+  .div-of-main-1 {
+    display: flex;
+    gap: 5px;
+  }
+  .image-of-arthik {
+    width: 60%;
+    height: 260px;
+  }
+  .introduction {
+    padding: 10px;
+  }
+  .introduction-of-arthik {
+    width: 40%;
+    height: 420px;
+  }
+  .paragraph-of-introduction {
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: larger;
+  }
+  .message-and-instruction-cycle {
+    display: flex;
+    padding: 10px;
+    width: 97%;
+  }
+  .message-and-image {
+    display: flex;
+  }
+  .applicaion-of-instruction-cycle {
+    display: flex;
+    gap: 20px;
+  }
+  .dic-ic {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
