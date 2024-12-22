@@ -11,7 +11,7 @@ function Header() {
           <a className="navigation_links">Gallery</a>
           <a className="navigation_links">Contact</a>
           <a className="navigation_links">About</a>
-        </nav>
+        </nav>  
       </div>
     </>
   );

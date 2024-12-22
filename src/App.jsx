@@ -1,7 +1,8 @@
 import Content from "./content"
 import Footer from "./Footer"
-import Header from "./header"
+import Header from "./Header"
 import "./App.css"
+import About from "./About"
 
 function App(){
   return(
@@ -9,6 +10,8 @@ function App(){
     <Header/>
     <Content/>
     <Footer/>
+    <About/>
+
     
     </>
   )
