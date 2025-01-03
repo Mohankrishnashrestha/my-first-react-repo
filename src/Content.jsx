@@ -3,21 +3,21 @@ function Content() {
   return (
     <>
       <div>
-        <div class="div-of-main-1">
-          <section class="images-of-arthik">
+        <div className="div-of-main-1">
+          <section className="images-of-arthik">
             <img
               src="/images/group photo.jpg"
               alt="group image"
-              class="img-group"
+              className="img-group"
             />
           </section>
 
-          <section class="introduction-of-arthik">
+          <section className="introduction-of-arthik">
             <div>
-              <h2 class="introduction">INTRODUCTION</h2>
+              <h2 className="introduction">INTRODUCTION</h2>
             </div>
-            <div class="div-of-introduction">
-              <p class="paragraph-of-introduction">
+            <div className="div-of-introduction">
+              <p className="paragraph-of-introduction">
                 " The Aarthik Bikash Mitra Saving and Credit Cooperative Society
                 Ltd. was established on 5th Poush 2061 BS (December 2004 AD) by
                 37 members, including 28 men and 9 women, with the intention of
@@ -29,26 +29,26 @@ function Content() {
             </div>
           </section>
         </div>
-        <div class="message-and-instruction-cycle">
-          <div class="message-and-image">
-            <section class="message-part">
+        <div className="message-and-instruction-cycle">
+          <div className="message-and-image">
+            <section className="message-part">
               <div>
-                <h3 class="message">Message</h3>
+                <h3 className="message">Message</h3>
               </div>
-              <div class="div-of-figure">
+              <div className="div-of-figure">
                 <img
                   src="/images/figure.jpeg"
                   alt="figure"
-                  class="images-of-figure"
+                  className="images-of-figure"
                 />
               </div>
               <div>
-                <span class="name-of-the-oficer">Thakurnath Adhikari</span>
-                <span class="name-of-the-oficer">Chief Executive Officer</span>
+                <span className="name-of-the-oficer">Thakurnath Adhikari</span>
+                <span className="name-of-the-oficer">Chief Executive Officer</span>
               </div>
             </section>
-            <section class="description-of-the-officer">
-              <p class="paragraph-of-description">
+            <section className="description-of-the-officer">
+              <p className="paragraph-of-description">
                 " Since the establishment of the institution, technology has
                 made significant advances, and today, every activity of the
                 institution is managed in a way that allows members to view and
@@ -56,22 +56,22 @@ function Content() {
               </p>
             </section>
           </div>
-          <div class="div-instruction">
+          <div className="div-instruction">
             <section>
-              <h4 class="heading-of-instruction-cycle">INCTRUCTOIN CYCLE</h4>
+              <h4 className="heading-of-instruction-cycle">INCTRUCTOIN CYCLE</h4>
             </section>
-            <section class="applicaion-of-instruction-cycle">
-              <div class="dic-ic">
-                <div class="ic">share capital</div>
-                <div class="ic">loan invesment</div>
-                <div class="ic">total aspect</div>
-                <div class="ic">share members</div>
+            <section className="applicaion-of-instruction-cycle">
+              <div className="dic-ic">
+                <div className="ic">share capital</div>
+                <div className="ic">loan invesment</div>
+                <div className="ic">total aspect</div>
+                <div className="ic">share members</div>
               </div>
-              <div class="dic-ic">
-                <div class="ic">saving deposits</div>
-                <div class="ic">profit loss</div>
-                <div class="ic">liquidity</div>
-                <div class="ic">bal member</div>
+              <div className="dic-ic">
+                <div className="ic">saving deposits</div>
+                <div className="ic">profit loss</div>
+                <div className="ic">liquidity</div>
+                <div className="ic">bal member</div>
               </div>
             </section>
           </div>
